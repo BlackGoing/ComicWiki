@@ -5,11 +5,11 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>reg</servlet-name>
+        <servlet-name>regs</servlet-name>
         <servlet-class>reg.reg</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>reg</servlet-name>
+        <servlet-name>regs</servlet-name>
         <url-pattern>/regs</url-pattern>
     </servlet-mapping>
 </web-app>
