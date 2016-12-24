@@ -9,22 +9,22 @@
 <html>
 <head>
     <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="../js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css">
         body{padding-top: 50px;}
     </style>
-    <link rel="stylesheet" href="../css/reg.css">
+    <link rel="stylesheet" href="css/reg.css">
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -36,7 +36,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../index.html">Anime视频网</a>
+            <a class="navbar-brand" href="index.html">Anime视频网</a>
         </div>
         <div class="nav navbar-nav navbar-right">
             <li><a href="search.jsp"><span class="glyphicon glyphicon-search"></span>搜索</a></li>
