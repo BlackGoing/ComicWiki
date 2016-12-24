@@ -53,12 +53,10 @@
                 <table class="table">
                     <tbody>
                     <tr>
-                        <td>[同人资源]</td>
                         <td>索尼子新手办放出！！</td>
                         <td>Admian</td>
                     </tr>
                     <tr>
-                        <td>[动漫情报]</td>
                         <td>少女编号最新话！！</td>
                         <td>Admian</td>
                     </tr>
@@ -69,12 +67,10 @@
                 <table class="table">
                     <tbody>
                     <tr>
-                        <td>[番剧情报]</td>
                         <td>少女编号最新话！！</td>
                         <td>Admian</td>
                     </tr>
                     <tr>
-                        <td>[同人资源]</td>
                         <td>索尼子新手办放出！！</td>
                         <td>Admian</td>
                     </tr>
@@ -121,6 +117,7 @@
             </div>
         </div>
     </div>
+
 </div>
 </body>
 </html>

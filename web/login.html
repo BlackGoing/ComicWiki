@@ -16,7 +16,8 @@
     <style type="text/css">
         body{padding-top: 200px;}
     </style>
-    <title>Anime动漫视频网-搜索</title>
+    <link rel="stylesheet" href="css/reg.css">
+    <title>Anime动漫视频网-登录</title>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -31,25 +32,31 @@
             <a class="navbar-brand" href="index.html">Anime视频网</a>
         </div>
         <div class="nav navbar-nav navbar-right">
-            <li class="active"><a href="search.html"><span class="glyphicon glyphicon-search"></span>搜索</a></li>
+            <li><a href="search.html"><span class="glyphicon glyphicon-search"></span>搜索</a></li>
             <li><a href="reg.html"><span class="glyphicon glyphicon-user"></span>注册</a></li>
-            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>登录</a></li>
+            <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>登录</a></li>
 
         </div>
         <!--/.nav-collapse -->
     </div>
 </nav>
 
-<div class="container-fluid">
-    <div class="col-md-3"></div>
-    <div class="input-group col-md-6">
-    
-    <input type="search" class="form-control" placeholder="请输入你要搜索的视频哦！～">
-        <span class="input-group-btn">
-            <button class="btn btn-default" type="button">Biu一下</button>
-        </span>
-    </div>
-</div>
+<div class="container">
+
+    <form class="form-signin" role="form"  action="regs" method="post">
+        <h2 class="form-signin-heading">请登录喵~</h2>
+        <input type="email" class="form-control" placeholder="邮箱" name="reg" autofocus><br>
+        <input type="password" class="form-control" placeholder="密码" name="password" required>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录_(:3 」∠)_</button>
+    </form>
+
+</div> <!-- /container -->
+
 
 </body>
 </html>
